@@ -263,6 +263,8 @@ p{
 
 h3 {
     margin: 0;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .slider {
@@ -546,7 +548,7 @@ h3 {
 }
 
 .textcard2 {
-    font-size: 16px;
+    font-size: 14px;
     color: #6d6d6d;
 }
 
@@ -613,10 +615,15 @@ h3 {
 
 h1 {
     margin: 0;
+    margin-top: 20px;
 }
 
 .htext {
     margin-top: 40px;
+}
+
+h2 {
+    font-weight: 400;
 }
 
 .but {
@@ -634,4 +641,214 @@ h1 {
 
 .awh {
     color: #ffffff;
+}
+
+.snwdiv {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+
+.boardtext {
+    width: 100%;
+    height: fit-content;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+    position: relative;
+    bottom: 50px;
+    box-sizing: border-box;
+}
+
+.snwdivlong {
+    width: 100%;
+    height: 370px;
+    grid-column: span 2;
+    background-image: url(post3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sowlong {
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.textcont {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.textcard3l {
+    max-width: 920px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.imgcomp {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    filter: invert(1);
+    position: relative;
+    left: 20px;
+    bottom: 820%;
+    opacity: 0.6;
+}
+
+@media (min-width: 1750px) {
+    .snwdivlong {
+        height: 450px;
+    }
+    .imgcomp {
+        bottom: 1070%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1750px) {
+    .snwdivlong {
+        height: 350px;
+    }
+}
+
+@media (min-width: 800px) and (max-width:900px) {
+    .snwdivlong {
+        height: 350px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .snwdivlong {
+        height: 300px;
+    }
+    .imgcomp {
+        bottom: 700%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 700px) {
+    .snwdivlong {
+        height: 250px;
+    }
+    .imgcomp {
+        bottom: 590%;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 550px) {
+    .snwdivlong {
+        height: 200px;
+    }
+    .imgcomp {
+        bottom: 600%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 430px) {
+    .snwdivlong {
+        height: 150px;
+    }
+    .imgcomp {
+        bottom: 450%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.alltext {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.sl1 {
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+    display: flex;
+    margin-top: 80px;
+}
+
+.wt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h3b {
+    font-weight: 700;
+}
+
+.aw {
+    color: #6d6d6d;
+}
+
+.photo {
+    width: 50%;
+    height: 100%;
+    background-image: url(post4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    align-items: center;
+}
+
+.play {
+    width: 70px;
+    height: 80px;
+    position: relative;
+    object-fit: contain;
+    left: 45%;
+    top: 42%;
+}
+
+@media (max-width:900px) {
+    .sl1 {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .photo {
+        width: 100%;
+        height: 400px;
+    }
+    .alltext {
+        width: 100%;
+    }
 }
