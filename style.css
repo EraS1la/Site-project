@@ -561,10 +561,22 @@ h3 {
     width: 100%;
     height: 300px;
     background-color: rgb(255, 255, 255);
-    background-image: url(sb1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.im1 {
+    background-image: url(sb1.png);
+}
+.im2 {
+    background-image: url(sb2.png);
+}
+.im3 {
+    background-image: url(sb3.png);
+}
+.im4 {
+    background-image: url(sb4.png);
 }
 
 .sellcard {
