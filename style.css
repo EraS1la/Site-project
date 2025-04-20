@@ -631,7 +631,9 @@ h1 {
 }
 
 .htext {
+    width: fit-content;
     margin-top: 40px;
+    text-align: center;
 }
 
 h2 {
@@ -1216,5 +1218,28 @@ h3 {
     }
     .underunder {
         margin: 0 auto;
+    }
+}
+
+@media (max-width:400px) {
+    .htext {
+        max-width: 270px;
+    }
+    .textcont {
+        max-width: 270px;
+    }
+}
+
+@media (max-width:470px) {
+    .block3 {
+        gap: 10px;
+    }
+    .logoun {
+        width: 120px;
+        height: 30px;
+    }
+    .group {
+        flex-direction: column;
+        align-items: center;
     }
 }
